@@ -1,0 +1,74 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+  }
+  .container {
+    position: relative;
+  }
+  .line, .circle {
+    position: absolute;
+    background-color: rgb(187, 53, 75);
+  }
+  .line {
+    width: 10px;
+    height: 100px;
+  }
+  .line-1 {
+    top: 170px;
+    left: 270px;
+    transform: rotate(48deg);
+  }
+  .line-2 {
+    top: 250px;
+    left: 220px;
+  }
+  .line-3 {
+    top: 170px;
+    left: 370px;
+    transform: rotate(-48deg);
+  }
+  .line-4 {
+    top: 250px;
+    left: 410px;
+  }
+  .line-5 {
+    height: 120px;
+    top: 360px;
+    left: 370px;
+    transform: rotate(44deg);
+  }
+  .line-6 {
+    height: 120px;
+    top: 360px;
+    left: 270px;
+    transform: rotate(-44deg);
+  }
+  .circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  .circle-1 {
+    top: 150px;
+    left: 300px;
+  }
+  .circle-2 {
+    top: 230px;
+    left: 200px;
+  }
+  .circle-3 {
+    top: 340px;
+    left: 200px;
+  }
+  .circle-4 {
+    top: 230px;
+    left: 390px;
+  }
+  .circle-5 {
+    top: 340px;
+    left: 390px;
+  }
+  .circle-6 {
+    top: 450px;
+    left: 300px;
+  }
